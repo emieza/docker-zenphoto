@@ -40,5 +40,5 @@ And then access your running container and make the symlink:
     $ docker exec -ti zenphoto /bin/bash
     # ln -s /morealbums /var/www/html/albums/morealbums
 
-Et voilà!
+Et voilà! :)
 
