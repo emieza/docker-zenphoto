@@ -30,7 +30,7 @@ directly to your server via FTP, SFTP, samba, etc. So, you may
 like to add albums to your gallery by mounting additional volumes
 and then adding symlinks to access from the CMS to them.
 
-Just add that line to the previous docker start command:
+Just add that line to the previous docker run command:
 
     -v zenphoto/morealbums:/morealbums 
 
