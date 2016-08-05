@@ -14,7 +14,7 @@ Just try out something like:
 docker run -p 9002:80 --name=zenphoto \
         -v zenphoto/mysql:/var/lib/mysql \
         -v zenphoto/www:/var/www/html \
-        -d enric/zenphoto
+        -d emieza/zenphoto
 ```
 
 First time run will need more time to create MySQL database.
