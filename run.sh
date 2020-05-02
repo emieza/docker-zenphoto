@@ -28,6 +28,7 @@ then
 fi
 
 # run mysql daemon
+rm /var/run/mysqld/mysqld.sock.lock
 /usr/bin/mysqld_safe > /dev/null 2>&1 &
 # wait for daemon to be up
 RET=1
